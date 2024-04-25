@@ -1,0 +1,109 @@
+/*----------------------------------------------------------------------------
+    Reset
+----------------------------------------------------------------------------*/
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+
+
+/*------------------------------------------------------------------------------
+   Base
+------------------------------------------------------------------------------*/
+
+
+body{
+    background-image: url(../images/fond/global.png);
+    background-repeat: repeat;
+
+    font-family: "Oranienbaum", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.6rem;
+
+    color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: darkorange;
+}
+
+
+
+/*------------------------------------------------------------------------------
+   Modules
+------------------------------------------------------------------------------*/
+
+/* INSÉREZ VOTRE CSS POUR CETTE SECTION ICI */
+
+header, section{
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+/*---------------------------------------
+                header
+ ---------------------------------------*/
+
+/* INSÉREZ VOTRE CSS POUR CETTE SECTION ICI */
+
+
+
+
+
+/*---------------------------------------
+                Section Générale
+ ---------------------------------------*/
+
+/* INSÉREZ VOTRE CSS POUR CETTE SECTION ICI */
+
+
+
+
+/*---------------------------------------
+                Section sports
+ ---------------------------------------*/
+
+/* INSÉREZ VOTRE CSS POUR CETTE SECTION ICI */
+
+
+
+
+
+/*---------------------------------------
+                Section web
+ ---------------------------------------*/
+
+/* INSÉREZ VOTRE CSS POUR CETTE SECTION ICI */
+
+
+
+
+
+
+
+/*---------------------------------------
+             Section photographie
+ ---------------------------------------*/
+
+/* INSÉREZ VOTRE CSS POUR CETTE SECTION ICI */
+
+
+
+/*---------------------------------------
+    Icône retour
+---------------------------------------*/
+
+
