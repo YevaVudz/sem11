@@ -27,6 +27,7 @@ body{
     font-size: 1.6rem;
 
     color: white;
+    background-color: black;
 }
 
 a{
@@ -51,6 +52,18 @@ header, section{
     height: 100vh;
 }
 
+.boite{
+    width: 800px;
+    padding: 48px;
+    background-color: rgba(0, 0, 0, 0.80);
+    border-radius: 10px;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 /*---------------------------------------
@@ -59,7 +72,12 @@ header, section{
 
 /* INSÉREZ VOTRE CSS POUR CETTE SECTION ICI */
 
-
+header div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
 
 
 
