@@ -48,6 +48,11 @@ h2{
     text-transform: uppercase;
 
     font-size: 3.2rem;
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
 }
 
 /*------------------------------------------------------------------------------
@@ -146,10 +151,6 @@ section{
     width: 100%;
 }
 
-a{
-    
-}
-
 /*---------------------------------------
                 Section sports
  ---------------------------------------*/
@@ -174,13 +175,26 @@ a{
 
 .web{
     background-image: url(../images/fond/science.png);
+    gap: 50px;
 }
 
 .web img{
     width: 50%;
 }
 
+.web span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 
+.lien_float{
+    margin-top: 50px;
+    text-align: center;
+    padding: 10px;
+    background-color: darkred;
+}
 
 
 
@@ -190,7 +204,16 @@ a{
 
 /* INSÉREZ VOTRE CSS POUR CETTE SECTION ICI */
 
+.photos{
+    background-image: url(../images/fond/fond.jpg);
 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.photos img{
+   width: 30%;
+}
 
 /*---------------------------------------
     Icône retour
