@@ -39,7 +39,16 @@ a:hover{
     color: darkorange;
 }
 
+h2{
+    font-family: "Monoton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 
+    margin: 0;
+    text-transform: uppercase;
+
+    font-size: 3.2rem;
+}
 
 /*------------------------------------------------------------------------------
    Modules
@@ -67,6 +76,15 @@ header, section{
 
 
 
+span{
+    font-family: "Oranienbaum", serif;
+    font-weight: 400;
+    font-style: normal;
+
+    font-size: 1.7rem;
+    text-transform: none;
+}
+
 
 /*---------------------------------------
                 header
@@ -86,6 +104,12 @@ header a{
     position: absolute;
 }
 
+h1{
+    font-family: "Monoton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10.0rem;
+}
 
 
 
@@ -102,7 +126,29 @@ section{
     justify-content: center;
 }
 
+.images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+}
 
+.images a{
+    width: 200px;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    text-align: center;
+    
+}
+
+.images .sports{
+    width: 100%;
+}
+
+a{
+    
+}
 
 /*---------------------------------------
                 Section sports
@@ -111,7 +157,13 @@ section{
 /* INSÉREZ VOTRE CSS POUR CETTE SECTION ICI */
 
 
+.sports .images img{
+    width: 100%;
+}
 
+.sports{
+    background-image: url(../images/fond/bicycles.png);
+}
 
 
 /*---------------------------------------
@@ -120,7 +172,13 @@ section{
 
 /* INSÉREZ VOTRE CSS POUR CETTE SECTION ICI */
 
+.web{
+    background-image: url(../images/fond/science.png);
+}
 
+.web img{
+    width: 50%;
+}
 
 
 
