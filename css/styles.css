@@ -48,8 +48,14 @@ a:hover{
 /* INSÉREZ VOTRE CSS POUR CETTE SECTION ICI */
 
 header, section{
-    width: 100vw;
-    height: 100vh;
+   min-height: 100vh;
+   padding: 48px;
+   border-radius: 10px;
+
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
 }
 
 .boite{
@@ -59,11 +65,7 @@ header, section{
     border-radius: 10px;
 }
 
-section{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 
 
 /*---------------------------------------
@@ -72,12 +74,18 @@ section{
 
 /* INSÉREZ VOTRE CSS POUR CETTE SECTION ICI */
 
-header div{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
+header{
+    position: relative;
 }
+
+header a{
+    text-align: center;
+    left: 0;
+    bottom: 40px;
+    width: 100%;
+    position: absolute;
+}
+
 
 
 
@@ -87,6 +95,12 @@ header div{
 
 /* INSÉREZ VOTRE CSS POUR CETTE SECTION ICI */
 
+section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
 
 
 
